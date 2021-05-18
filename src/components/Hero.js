@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 
@@ -13,6 +13,13 @@ const Hero = ({ slides }) => {
   const prevSlide = () => {
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
+
+  useEffect(() => {
+  const interval = setInterval(() => {
+    nextSlide();
+  }, 2000);
+  return () => clearInterval(interval);
+  }, [current]);
 
   if (!Array.isArray(slides) || slides.length <= 0) {
     return null;
@@ -29,7 +36,7 @@ const Hero = ({ slides }) => {
             key={index}
           >
             {index === current && (
-              <img src={slide.image} alt='travel image' className='image' />
+              <img src={slide.image} alt='pet image' className='image' />
             )}
           </div>
         );

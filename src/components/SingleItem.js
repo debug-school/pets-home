@@ -10,7 +10,7 @@ const SingleItem = ({items}) => {
 
 	console.log("ami params",location);
 
-	if(location == "medicines" || location == "foods" || location=="shops"){
+	if(location == "medicines" || location == "foods" || location=="shops" || location==""){
 		return (
 			items.map((item)=>{
 				return(

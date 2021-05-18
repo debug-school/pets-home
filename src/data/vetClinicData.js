@@ -151,7 +151,7 @@ export const vetClinics = [
     title: "Veterinary Care at Barisal, Bangladesh",
     img: img10,
     location:{
-      adress: "Poshu Hospital Rd",
+      address: "Poshu Hospital Rd",
       division: "Barishal"
     },
     info:"Visitng House : 10/11 to 2pm (call the vet before going)",
