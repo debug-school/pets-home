@@ -9,9 +9,13 @@ import Shops from './components/pages/Shops';
 import VetClinics from './components/pages/VetClinics';
 import ContactUs from './components/pages/ContactUs';
 import SignUp from './components/pages/SignUp';
+import SignIn from './components/pages/SignIn';
 import AboutUs from './components/pages/AboutUs';
 import Cart from './components/pages/Cart';
 import Forum from './components/pages/Forum';
+import Foods from './components/pages/Foods';
+import Medicines from './components/pages/Medicines';
+
 import SideBar from './components/SideBar';
 
 import {sliderData} from "./data/sliderData.js";
@@ -40,9 +44,12 @@ function App() {
         </Route>
 
         <Route path='/shops' component={Shops} />
-        <Route path='/VetClinics' component={VetClinics} />
+        <Route path='/foods/' component={Foods} />
+        <Route path='/medicines/' component={Medicines} />
+        <Route path='/Vet-clinics' component={VetClinics} />
         <Route path='/pet-forum' component={Forum} />
         <Route path='/sign-up' component={SignUp} />
+        <Route path='/sign-in' component={SignIn} />
         <Route path='/about-us' component={AboutUs} />
         <Route path='/cart' component={Cart} />
       </Switch>

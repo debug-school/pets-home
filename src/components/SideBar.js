@@ -19,45 +19,45 @@ const SideBar = () => {
 				<GiTurtle className="sidebar-category-logo" />
 				<span className="sidebar-category-text" >
 					<span>Turtle</span>
-					<Link to="/foods" className="food-category category-link">Food</Link>
+					<Link to="/foods/turtle" className="food-category category-link">Food</Link>
 					<FaGripLinesVertical className="fa-grip-lines-vertical" />
-					<Link to="/medicine" className="medicine-category category-link">Medicine</Link>
+					<Link to="/medicines/turtle" className="medicine-category category-link">Medicine</Link>
 				</span>
 			</div>
 			<div className="sidebar-category">
 				<FaCat className="sidebar-category-logo" />
 				<span className="sidebar-category-text" >
 					<span>Cat</span>
-					<Link to="/foods" className="food-category category-link">Food</Link>
+					<Link to="/foods/cat" className="food-category category-link">Food</Link>
 					<FaGripLinesVertical className="fa-grip-lines-vertical" />
-					<Link to="/medicine" className="medicine-category category-link">Medicine</Link>
+					<Link to="/medicines/cat" className="medicine-category category-link">Medicine</Link>
 				</span>
 			</div>
 			<div className="sidebar-category">
 				<FaDog className="sidebar-category-logo" />
 				<span className="sidebar-category-text" >
 					<span>Dog</span>
-					<Link to="/foods" className="food-category category-link">Food</Link>
+					<Link to="/foods/dog" className="food-category category-link">Food</Link>
 					<FaGripLinesVertical className="fa-grip-lines-vertical" />
-					<Link to="/medicine" className="medicine-category category-link">Medicine</Link>
+					<Link to="/medicines/dog" className="medicine-category category-link">Medicine</Link>
 				</span>
 			</div>
 			<div className="sidebar-category">
 				<GiEgyptianBird className="sidebar-category-logo" />
 				<span className="sidebar-category-text" >
 					<span>Bird</span>
-					<Link to="/foods" className="food-category category-link">Food</Link>
+					<Link to="/foods/bird" className="food-category category-link">Food</Link>
 					<FaGripLinesVertical className="fa-grip-lines-vertical" />
-					<Link to="/medicine" className="medicine-category category-link">Medicine</Link>
+					<Link to="/medicines/bird" className="medicine-category category-link">Medicine</Link>
 				</span>
 			</div>
 			<div className="sidebar-category">
 				<FaFish className="sidebar-category-logo" />
 				<span className="sidebar-category-text" >
 					<span>Fish</span>
-					<Link to="/foods" className="food-category category-link">Food</Link>
+					<Link to="/foods/fish" className="food-category category-link">Food</Link>
 					<FaGripLinesVertical className="fa-grip-lines-vertical" />
-					<Link to="/medicine" className="medicine-category category-link">Medicine</Link>
+					<Link to="/medicines/fish" className="medicine-category category-link">Medicine</Link>
 				</span>
 			</div>
 
