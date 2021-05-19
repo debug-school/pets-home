@@ -7,7 +7,7 @@ const ContactUs =()=> {
 
 	  <h1>Contact Us</h1>
 	  <div className="border"></div>
-	  <form className="contact-form" action="index.html" method="post">
+	  <form className="contact-form" method="post">
 	    <input type="text" className="contact-form-text" placeholder="Your name"/>
 	    <input type="email" className="contact-form-text" placeholder="Your email"/>
 	    <input type="text" className="contact-form-text" placeholder="Your phone"/>

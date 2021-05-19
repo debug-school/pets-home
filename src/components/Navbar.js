@@ -70,7 +70,7 @@ function Navbar() {
 
           <li className='nav-item'>
             <Link
-              to='/forum'
+              to='/pet-forum'
               className='nav-links'
               onClick={closeMobileMenu}
             >
